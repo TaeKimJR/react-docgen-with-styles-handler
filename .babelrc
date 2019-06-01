@@ -4,9 +4,10 @@
       "@babel/preset-env",
       {
         "targets": {
-          "node": "current",
+          "node": "8.10.0"
         },
-      },
+        "shippedProposals": true
+      }
     ]
   ]
 }
