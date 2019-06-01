@@ -1,0 +1,34 @@
+{
+  "name": "react-docgen-with-styles-handler",
+  "version": "1.0.0",
+  "description": "A react-docgen handler for withStyles classNames",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaeKimJR/react-docgen-with-styles-handler.git"
+  },
+  "keywords": [
+    "react-docgen",
+    "withStyles",
+    "react",
+    "jss"
+  ],
+  "author": "Tae Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaeKimJR/react-docgen-with-styles-handler/issues"
+  },
+  "homepage": "https://github.com/TaeKimJR/react-docgen-with-styles-handler#readme",
+  "dependencies": {
+    "ast-types": "^0.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
