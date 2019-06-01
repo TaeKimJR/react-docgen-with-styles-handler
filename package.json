@@ -1,6 +1,6 @@
 {
   "name": "react-docgen-with-styles-handler",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A handler to report withStyles className comments.",
   "repository": {
     "type": "git",
@@ -49,6 +49,7 @@
     "@babel/preset-flow": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
     "benchmark": "^2.1.4",
     "cli-table": "^0.3.1",
     "cross-spawn": "^6.0.4",

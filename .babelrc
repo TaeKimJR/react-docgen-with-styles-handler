@@ -12,6 +12,7 @@
     "@babel/preset-flow"
   ],
   "plugins": [
-    "@babel/plugin-transform-runtime"
+    "@babel/plugin-transform-runtime",
+    "add-module-exports"
   ]
 }
