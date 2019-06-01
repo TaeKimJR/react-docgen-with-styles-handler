@@ -1,6 +1,6 @@
 {
   "name": "react-docgen-with-styles-handler",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A react-docgen handler for withStyles classNames",
   "main": "build/index.js",
   "scripts": {
