@@ -8,6 +8,10 @@
         },
         "shippedProposals": true
       }
-    ]
+    ],
+    "@babel/preset-flow"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
   ]
 }

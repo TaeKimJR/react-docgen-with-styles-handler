@@ -1,5 +1,5 @@
-const getMemberValuePath = require('react-docgen/dist/utils/getMemberValuePath');
-const getDocblock = require('react-docgen/dist/utils/docblock').getDocblock;
+import getMemberValuePath from '../utils/getMemberValuePath';
+import { getDocblock } from '../utils/docblock';
 
 function staticWithStylesHandler(documentation, path) {
   const stylesFn = getMemberValuePath(path, 'styles');
@@ -33,4 +33,4 @@ function staticWithStylesHandler(documentation, path) {
   );
 }
 
-module.exports = staticWithStylesHandler;
+export default staticWithStylesHandler;
